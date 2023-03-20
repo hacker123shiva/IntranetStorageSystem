@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+
+</style>
+<!--[if gte mso 9]>
+
+<![endif]-->
+</head>
+<body>
+	<div id="ctl00_ContentPlaceHolder1_RadGrid1_GridData" class="rgDataDiv" style="overflow:auto;width:100%;height:300px;">
+
+<table id="ctl00_ContentPlaceHolder1_RadGrid1_ctl00" style="width:100%;table-layout:auto;empty-cells:show;">
+	<colgroup>
+		<col style="width:20px" />
+		<col style="width:20px" />
+	</colgroup>
+<thead>
+		<tr>
+			<th scope="col">Complaint Detail's</th><th scope="col"> Employee Detail Status</th>
+		</tr>
+	</thead><tbody>
+
+	</tbody>
+
+</table>	</div>
+</body></html>

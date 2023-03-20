@@ -1,0 +1,28 @@
+create database using xampp php my admin
+name of database: db_login
+table name: customer_login_details
+using insert query:
+$q="INSERT INTO `customer_login_details` (`name`, `father_name`, `gender`, `dob`, `email`, `mobile`, `password`, `pincode`, `address`, `state`, `photo`) VALUES ('$name', '$father_name', '$gender', '$dob', '$email', '$mobile', '$password', '$pincode', '$address', '$state','$photo')";
+insert data in table;
+for login:
+we are using query:
+$sql= "SELECT*FROM customer_login_details WHERE email='$email' and 
+    password='$pass'
+now i am using update query :
+for changing password
+$q="UPDATE `customer_login_details` SET password='$password' WHERE email='$email' ";
+
+after that i am making a file upload-file folder in same directory to store file which are come from user: 
+
+$conn=new_mysqli($servername,$username,$password,$database);
+$conn->connect_error
+$q=insertion, update, delete, select
+$conn->query($q);
+$conn->close()
+
+   $sql= "SELECT*FROM customer_login_details WHERE email='$email' and 
+    password='$pass'";
+$result=$conn->query($sql);
+$result->num_rows>0
+$row=$result->fetch_assoc();
+$q="UPDATE `customer_login_details` SET password='$password' WHERE email='$email' ";
